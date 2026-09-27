@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Identifier</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>
+        Cloud Identifier
+    </h1>
+    <section>
+        <div>
+            <label for="cloud_image_file">Please upload an image of a cloud to identify</label><br>
+            <input type="file" name="input-file" id="cloud_image_file" accept="image/*" onchange="previewImage()">
+        </div>
+        
+        <button id="submit-btn" onclick="uploadImage()">Submit Image</button>
+    </section>
+    <section id="result">
+        <img src="" alt="" id="image_preview">
+        <div id="result_summary">
+            <h3>This cloud is a <span id="predicted_cloud">...</span> cloud.</h3>
+            <h5>Confidence: <span id="prediction_confidence">...</span>%</h5>
+            <p id="cloud_description"></p>
+            <div id="predictions_container">
+                <table id="predictions_table">
+                    <tr>
+                        <th>Classification</th>
+                        <th>Confidence</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        
+    </section>
+</body>
+
+<script src="scripts/main_script.js"></script>
+</html>

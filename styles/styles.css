@@ -1,0 +1,77 @@
+body{
+    margin: 0 auto;
+    background-image: url("/images/backgroundImage.jpg");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(238, 255, 0);
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+section{
+    display: grid;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: rgba(204, 204, 204, 0.8);
+    border-radius: 40px;
+}
+
+#predictions_table{
+    margin: auto;
+}
+
+#result_summary{
+    display: none;
+}
+
+#cloud_image_file{
+    padding: 10px;
+}
+
+#submit-btn{
+    margin: auto;
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#image_preview{
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#cloud_image_file{
+    margin: auto;
+    width: inherit;
+}
+
+#predicted_cloud{
+    color: rgb(0, 138, 0);
+    font-style: italic;
+}
+
+table, th, tr, td{
+    padding: 5px;
+}
