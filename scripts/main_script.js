@@ -5,7 +5,7 @@ function $(id)
 
 const cloudDescriptions = new Map()
 // V V ENTER API URL FROM PYTHON TERMINAL HERE V V
-const apiUrl = "http://127.0.0.1:8000"
+const apiUrl = "" //<-------¬
 
 cloudDescriptions.set("cirrus", 
     "Cirrus clouds are high-altitude clouds that are composed primarily of ice crystals. They are easily identifiable by their distinct wispy,\
