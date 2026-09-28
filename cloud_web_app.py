@@ -5,7 +5,8 @@ using the following command:
    uvicorn cloud_web_app:app
 
 This will start the server and print out the link to the port that it is running on.
-Copy and paste this link into the fetch command in the JavaScript file if the link has changed
+Copy and paste this link into the variable apiUrl at the start of the JavaScript file if running for the 
+first time or the link has changed.
 
 To install all dependencies if running in a new pycharm project, run the following command:
    pip install tensorflow numpy matplotlib seaborn scikit-learn pillow fastapi uvicorn python-multipart
